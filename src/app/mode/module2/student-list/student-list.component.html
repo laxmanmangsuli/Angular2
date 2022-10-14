@@ -1,0 +1,26 @@
+<h1>String_Interpolation one way ts to html</h1>
+<h1>{{Id}}</h1>
+<h2><marquee behavior="up" direction="right">{{arrstu}}</marquee></h2>
+
+<h3><div *ngFor='let x of arrstu'>{{x}}</div></h3>
+<h1>Property_Binding one way ts to html</h1>
+Name :<input type="text" [value]="name">
+
+<h1>Event _Binding one way html to ts</h1>
+<button (click)="anyclick()">Click Here</button>
+
+<h1>two way binding ngModel_html to ts and ts to html</h1>
+Name <input type="text" [(ngModel)]="paddress"><br>{{paddress}}
+
+<h1>NonPrimitive</h1>
+{{t}}<br>
+{{t.tid}}<br>
+{{t.tname}}<br>
+{{t.tadd}}<br>
+{{t.addr.pincode}}<br>
+{{t.addr.area}}
+
+
+
+
+
